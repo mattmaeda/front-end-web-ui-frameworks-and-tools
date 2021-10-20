@@ -1,4 +1,5 @@
 $lt-gray: #ddd;
+$text-white: #fffaf0;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
@@ -73,4 +74,17 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header {
+    color: $text-white;
+    background-color: $background-dark;
+
+    .close {
+        color: $text-white;
+    }
+}
+
+.modal-body {
+    background-color: $background-pale;
 }
